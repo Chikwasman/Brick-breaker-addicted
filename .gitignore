@@ -1,15 +1,29 @@
+# Android/IntelliJ
 *.iml
 .gradle
 /local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
+/.idea
 .DS_Store
 /build
 /captures
 .externalNativeBuild
 .cxx
-local.properties
+*.apk
+*.aab
+
+# Keystore files
+*.jks
+*.keystore
+
+# Keystore property file
+keystore.properties
+
+# Signing keys or credentials
+signing/
+secret/
+*.pem
+*.key
+
+# Other temporary or private files
+*.log
+*.tmp
