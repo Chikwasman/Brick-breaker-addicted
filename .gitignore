@@ -1,29 +1,36 @@
-# Android/IntelliJ
+# Android/IntelliJ files
 *.iml
-.gradle
-/local.properties
-/.idea
+.gradle/
+local.properties
+/.idea/
 .DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+/build/
+.cxx/
+captures/
+.externalNativeBuild/
+
+# Gradle Wrapper (keep scripts but ignore generated stuff)
+.gradle/
+gradle-app.setting
+
+# APK/AAB files
 *.apk
 *.aab
 
-# Keystore files
+# Keystore and signing
 *.jks
 *.keystore
-
-# Keystore property file
 keystore.properties
-
-# Signing keys or credentials
 signing/
 secret/
 *.pem
 *.key
 
-# Other temporary or private files
+# Logs and temp
 *.log
 *.tmp
+
+# Misc
+*.lock
+*.swp
+*.swo
