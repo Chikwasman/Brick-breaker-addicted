@@ -26,7 +26,7 @@ Gradle 8.2 or higher
 Installation
 
 Clone the repository
-bash   git clone https://github.com/yourusername/brick-breaker.git
+bash   git clone https://github.com/chikwasman/brick-breaker.git
    cd brick-breaker
 
 Open in Android Studio
